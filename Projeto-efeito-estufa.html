@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Efeito Estufa</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0fdf4;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+    header {
+      background-color: #065f46;
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    main {
+      padding: 2rem;
+    }
+    h2 {
+      color: #065f46;
+      margin-top: 2rem;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
+    }
+    .card {
+      background: white;
+      border-radius: 12px;
+      padding: 1.5rem;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    .card h3 {
+      margin-top: 0;
+      color: #047857;
+    }
+    .equacoes {
+      background: #ecfdf5;
+      border-left: 5px solid #10b981;
+      padding: 1rem;
+      margin: 2rem 0;
+      border-radius: 8px;
+      font-family: 'Courier New', monospace;
+    }
+    .equacoes p {
+      font-size: 1.1rem;
+      margin: 0.5rem 0;
+    }
+    .timeline {
+      position: relative;
+      margin: 3rem 0;
+      padding-left: 2rem;
+      border-left: 3px solid #065f46;
+    }
+    .timeline-item {
+      margin-bottom: 2rem;
+      position: relative;
+      padding-left: 2.5rem;
+    }
+    .timeline-item::before {
+      content: "";
+      position: absolute;
+      left: -11px;
+      top: 0.3rem;
+      width: 20px;
+      height: 20px;
+      background: #10b981;
+      border-radius: 50%;
+      border: 3px solid white;
+      box-shadow: 0 0 0 2px #065f46;
+    }
+    .timeline-item h4 {
+      margin: 0;
+      color: #065f46;
+      font-size: 1.2rem;
+    }
+    .timeline-item p {
+      margin: 0.5rem 0 0;
+    }
+    img {
+      display: block;
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+      margin: 1rem auto;
+    }
+    footer {
+      background: #065f46;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🌍 Efeito Estufa</h1>
+    <p>Compreenda causas, consequências e soluções para esse fenômeno global</p>
+  </header>
+  <main>
+    <section>
+      <h2>O que é o Efeito Estufa?</h2>
+      <p>O efeito estufa é um processo natural que mantém a Terra aquecida. Sem ele, a temperatura seria cerca de 33 °C mais baixa, tornando o planeta inabitável. Porém, atividades humanas têm intensificado esse efeito, levando ao aquecimento global.</p>
+      
+    </section>
+
+    <section>
+      <h2>10 Tópicos sobre o Efeito Estufa</h2>
+      <div class="grid">
+        <div class="card"><h3>1. Definição</h3><p>O efeito estufa é o aquecimento natural da Terra causado por gases que retêm calor.</p></div>
+        <div class="card"><h3>2. Principais gases</h3><p>Dióxido de carbono (CO<sub>2</sub>), metano (CH<sub>4</sub>), óxido nitroso (N<sub>2</sub>O) e vapor d’água.</p></div>
+        <div class="card"><h3>3. Fontes humanas</h3><p>Queima de combustíveis fósseis, desmatamento e agropecuária intensiva.</p></div>
+        <div class="card"><h3>4. Fontes naturais</h3><p>Respiração, decomposição e erupções vulcânicas também liberam gases estufa.</p></div>
+        <div class="card"><h3>5. Consequências</h3><p>Aumento da temperatura global, derretimento das geleiras e eventos climáticos extremos.</p></div>
+        <div class="card"><h3>6. Impacto nos oceanos</h3><p>Elevação do nível do mar e acidificação oceânica.</p></div>
+        <div class="card"><h3>7. Saúde</h3><p>O calor intenso pode agravar doenças respiratórias e cardiovasculares.</p></div>
+        <div class="card"><h3>8. Economia</h3><p>Danos à agricultura, infraestrutura e energia.</p></div>
+        <div class="card"><h3>9. Soluções</h3><p>Energia limpa, reflorestamento, mobilidade sustentável.</p></div>
+        <div class="card"><h3>10. Acordos globais</h3><p>Protocolo de Kyoto e Acordo de Paris.</p></div>
+      </div>
+    </section>
+
+    <section class="equacoes">
+      <h2>⚗️ Equações Químicas Relacionadas</h2>
+      <p><strong>Combustão de combustíveis fósseis:</strong></p>
+      <p>C + O<sub>2</sub> → CO<sub>2</sub></p>
+      <p>CH<sub>4</sub> + 2 O<sub>2</sub> → CO<sub>2</sub> + 2 H<sub>2</sub>O</p>
+      <p>2 N<sub>2</sub>O → 2 N<sub>2</sub> + O<sub>2</sub></p>
+    </section>
+
+    <section>
+      <h2>Exemplos do Dia a Dia</h2>
+      <ul>
+        <li>Uso diário de carros liberando CO<sub>2</sub>.</li>
+        <li>Queima de lixo a céu aberto.</li>
+        <li>Uso excessivo de energia elétrica proveniente de termoelétricas.</li>
+        <li>Alimentos desperdiçados que liberam metano em aterros.</li>
+      </ul>
+   
+    </section>
+
+    <section>
+      <h2>🌐 Linha do Tempo do Efeito Estufa</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <h4>1824</h4>
+          <p>Joseph Fourier descreve o efeito estufa natural da Terra.</p>
+        </div>
+        <div class="timeline-item">
+          <h4>1896</h4>
+          <p>Svante Arrhenius relaciona o aumento de CO<sub>2</sub> ao aquecimento global.</p>
+        </div>
+        <div class="timeline-item">
+          <h4>1958</h4>
+          <p>Charles Keeling começa a medir os níveis de CO<sub>2</sub> na atmosfera (Curva de Keeling).</p>
+        </div>
+        <div class="timeline-item">
+          <h4>1997</h4>
+          <p>Assinatura do Protocolo de Kyoto para redução de emissões.</p>
+        </div>
+        <div class="timeline-item">
+          <h4>2015</h4>
+          <p>Acordo de Paris firmado para limitar o aquecimento global.</p>
+        </div>
+        <div class="timeline-item">
+          <h4>2020+</h4>
+          <p>Aumento de movimentos globais por energia renovável e neutralidade de carbono.</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>💡 O que você pode fazer</h2>
+      <ul>
+        <li>Preferir transporte coletivo ou bicicleta 🚲.</li>
+        <li>Economizar energia elétrica apagando luzes desnecessárias.</li>
+        <li>Reduzir o consumo de carne bovina.</li>
+        <li>Separar o lixo e reciclar.</li>
+        <li>Plantar árvores e apoiar reflorestamento.</li>
+      </ul>
+    
+    </section>
+  </main>
+
+  <footer>
+    <p>🌱 Site educativo sobre o efeito estufa — Desenvolvido em HTML & CSS</p>
+    <p>Feito por 
+      Gabriel Lemes</p>
+    <p>Igor Ramalho & Samuel Sanriago</p>
+    <p>Gustavo Duarte & Felipe Costabile</p>
+    <p>Rafael Honorato & Felipe Cunha</p>
+    <p>Gustavo Silva & Nicolas Silva</p>
+    <p>Gabriel Arcanjo & André Galastri</p>
+    <p>Vinicius & Guilherme</p>
+    <p>Kayke & Marcos</p>
+    <p>Thiago</p>
+    <p></p>
+    <p></p>
+    <p></p>
+    <p></p>
+    <p></p>
+    <p></p>
+    <p></p>
+    <p></p>
+    <p></p>
+    <p></p>
+  </footer>
+</body>
+</html>
